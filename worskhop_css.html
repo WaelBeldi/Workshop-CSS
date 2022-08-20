@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <style>
         h2 {
-            color: #B9BBBD;
+            color: #08539e;
         }
     </style>
+    <link rel="stylesheet" href="styles.css">
     <title>Workshop CSS</title>
 </head>
 
@@ -57,7 +57,11 @@
         <section id="video">
             <h3>Video Section</h3>
             <p>Kevin Powell :"Helping you learn how to make the web, and make it look good while you're at it."</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/TZTaGTQKl2I"
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/TZTaGTQKl2I"
+                title="YouTube video player" frameborder="3"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TZTaGTQKl2I"
                 title="YouTube video player" frameborder="3"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -65,17 +69,17 @@
         <section id="table">
             <h3>Table Section</h3>
             <table border="1" style="width: 75%; margin: 0 auto;">
-                <tr style="height: 40px">
+                <tr style="height: 50px;">
                     <th>HTML</th>
                     <th>CSS</th>
                     <th>JS</th>
                 </tr>
-                <tr style="height: 32px">
+                <tr style="height: 30px;">
                     <td>Paragraphs</td>
                     <td>Selectors</td>
                     <td>DOM</td>
                 </tr>
-                <tr style="height: 32px">
+                <tr style="height: 30px;">
                     <td>Tables</td>
                     <td>Styles</td>
                     <td>Elements</td>
@@ -97,7 +101,7 @@
             <h3>Form Section</h3>
             <form>
                 <div>
-                    <label>Username<span style="color: red">*</span></label>
+                    <label>Username<span style="color: red;">*</span></label>
                     <input size="50" required type="text" name="username" placeholder="Type your username" />
                 </div>
                 <div>
