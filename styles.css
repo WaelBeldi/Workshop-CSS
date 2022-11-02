@@ -29,8 +29,7 @@ a:hover {
 }
 
 /****************** MAIN ******************/
-main,
-footer {
+main, footer {
   width: 75%;
   margin: 0 auto;
 }
@@ -43,9 +42,9 @@ section {
 #intro {
   margin-top: 1rem;
 }
-.intro {
+/* .intro {
   margin-top: 5rem;
-}
+} */
 
 h3 {
   text-decoration: underline;
@@ -68,14 +67,14 @@ p {
 } */
 
 /* Adjacent Sibling Combinator: select something if it is right next to another element at the same level of the hierarchy */
-h3 + p {
+/* h3 + p {
   color: orange;
-}
+} */
 
 /* General Sibling Combinator: select siblings of an element even if they are not directly adjacent */
-h3 ~ p {
+/* h3 ~ p {
   color: green;
-}
+} */
 
 iframe {
   display: block;
@@ -92,9 +91,9 @@ tr {
   /*use class or id for repeating the same style*/
 }
 
-img {
+/* img {
   display: none;
-}
+} */
 
 /****************** FOOTER ******************/
 input[type="text"],
