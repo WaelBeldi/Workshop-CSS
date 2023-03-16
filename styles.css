@@ -96,7 +96,8 @@ tr {
 } */
 
 /****************** FOOTER ******************/
-input[type="text"],
+/****** footer.scss ******/
+/* input[type="text"],
 input[type="password"],
 .select,
 #textarea {
@@ -143,4 +144,4 @@ h5 {
 
 footer {
   margin-bottom: 1rem;
-}
+} */

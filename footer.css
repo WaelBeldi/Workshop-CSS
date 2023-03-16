@@ -1,0 +1,43 @@
+input[type=submit] {
+  background-color: #4caf50;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+button {
+  background-color: #eb9f42;
+}
+button:hover {
+  background-color: #d78622;
+}
+
+input[type=submit],
+button {
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  margin-bottom: 1rem;
+}
+footer input[type=text],
+footer input[type=password],
+footer .select,
+footer #textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+footer textarea {
+  height: 150px;
+  resize: none;
+}/*# sourceMappingURL=footer.css.map */

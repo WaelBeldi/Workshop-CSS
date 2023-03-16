@@ -1,0 +1,40 @@
+// **3**
+//Separate Code
+@import "buttons";
+
+// **1**
+//Nesting in SASS
+footer {
+  //CSS for Footer
+  margin-bottom: 1rem;
+  //CSS for elements inside footer
+  input[type="text"],
+  input[type="password"],
+  .select,
+  #textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+}
+
+// **2**
+//SASS Variables
+// $primaryColor: #4caf50;
+// $secondaryColor: #eb9f42;
+
+// input[type="submit"] {
+//   background-color: $primaryColor;
+// }
+
+// button {
+//   background-color: $secondaryColor;
+// }
